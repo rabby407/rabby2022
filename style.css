@@ -1,0 +1,209 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: gray;
+}
+button {
+    background-color: red;
+    color: bisque;
+    font-size: 18px;
+    border: 3px solid rgb(163, 42, 163);
+}
+button:hover {
+    background-color: yellow;
+    color: red;
+    border: 3px solid red;
+    font-size: 20px;
+}
+/*------header------*/
+.header {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.header-text {
+    max-width: 50%;
+    padding-left: 100px;
+    padding-right: 40px;
+}
+.header-text h1 {
+    color: rgb(78, 26, 26);
+    font-size: 35px;
+    font-weight: 900;
+}
+.header-text h2 {
+    font-size: 30px;
+    color: rgb(173, 19, 211);
+}
+.header-text p {
+    color: darkslategray;
+    text-align: justify;
+}
+small {
+    color: gray;
+}
+
+
+.header-img {
+    max-width: 50%;
+    padding: 50px;
+}
+
+/*--------misson1-------*/
+
+.mission1 {
+    text-align: center;
+    background-color: white;
+    color: blueviolet;
+    margin: 0;
+    padding: 0px;
+}
+/*--------mission2-------*/
+
+.mission2 {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.mission00 {
+    text-align: justify;
+    padding: 40px;
+}
+.mission00 img {
+    padding-left: 100px;
+}
+.mission00 h2 {
+    text-align: center;
+    color: rgb(103, 10, 224);
+    font-size: 30px;
+}
+
+.mission11 {
+    text-align: justify;
+    padding: 40px;
+}
+.mission11 img {
+    padding-left: 100px;
+}
+.mission11 h2 {
+    text-align: center;
+    color: rgb(103, 10, 224);
+    font-size: 30px;
+}
+
+.mission22 {
+    text-align: justify;
+    padding: 40px;
+}
+.mission22 img {
+    padding-left: 100px;
+}
+.mission22 h2 {
+    text-align: center;
+    color: rgb(103, 10, 224);
+    font-size: 30px;
+}
+/*--------devolop-------*/
+.devolop {
+    max-width: 100%;
+    display: flex;align-items: center;
+    background-color: white;
+}
+.devolop-text {
+    max-width: 50%;
+    padding-right: 200px;
+    
+}
+.devolop-text h1 {
+    color: rgb(78, 26, 26);
+    font-size: 35px;
+    font-weight: 900;
+}
+.devolpo-text h2 {
+    font-size: 30px;
+    color: rgb(173, 19, 211);
+}
+.devolop-text p {
+    color: gray;
+    text-align: justify;
+}
+
+.img1 {
+    max-width: 50%;
+    padding: 50px 100px;
+}
+/*--------community------*/
+.community {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.community-text {
+    max-width: 50%;
+    padding-left: 100px;
+    padding-right: 40px;
+}
+.community-text h1 {
+    color: rgb(78, 26, 26);
+    font-size: 35px;
+    font-weight: 900;
+}
+.community-text h2 {
+    font-size: 30px;
+    color: rgb(202, 20, 202);
+}
+.community-text p {
+    color: gray;
+    text-align: justify;
+}
+.img2 {
+    max-width: 50%;
+    padding: 50px 100px;
+}
+
+/*-------stay start---*/
+.stay {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.stay-text h1 {
+    color: rgb(78, 26, 26);
+    font-size: 35px;
+    font-weight: 900;
+}
+.stay-text h2 {
+    font-size: 30px;
+    color: rgb(173, 19, 211);
+}
+.stay-text p {
+    color: gray;
+    text-align: justify;
+    padding-right: 200px;
+}
+
+.img3 {
+    max-width: 50%;
+    padding: 50px 100px;
+}
+/*-------div footer---*/
+.footer {
+    max-width: 100%;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
